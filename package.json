@@ -15,5 +15,10 @@
   "files": [
     "src"
   ],
+  "keywords": [
+    "graphql",
+    "api",
+    "schema"
+  ],
   "license": "Apache-2.0"
 }
