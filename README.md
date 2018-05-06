@@ -2,7 +2,7 @@
 
 create a graphql schema using one or more files.
 
-each file containing queries, mutations, types or resolvers are then merged to a single executable schema.
+Each file containing queries, mutations, types or resolvers is then merged to a single executable schema.
 
 [![js-standard-style](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://github.com/feross/standard)
 
