@@ -4,6 +4,8 @@ create a graphql schema using one or more files.
 
 each file containing queries, mutations, types or resolvers are then merged to a single executable schema.
 
+[![js-standard-style](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://github.com/feross/standard)
+
 # usage
 
 ```javascript
@@ -29,8 +31,6 @@ module.exports = {
   }
 }
 ```
-
-[![js-standard-style](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://github.com/feross/standard)
 
 # license
 
