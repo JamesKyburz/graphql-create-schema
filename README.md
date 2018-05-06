@@ -1,5 +1,7 @@
 # graphql-create-schema
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/JamesKyburz/graphql-create-schema.svg)](https://greenkeeper.io/)
+
 create a graphql schema using one or more files.
 
 each file containing queries, mutations, types or resolvers are then merged to a single executable schema.
