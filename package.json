@@ -1,0 +1,19 @@
+{
+  "name": "graphql-create-schema",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/JamesKyburz/graphql-create-schema.git"
+  },
+  "scripts": {
+    "missing": "npx dependency-sync --once --debug ./src/index.js"
+  },
+  "dependencies": {
+    "graphql-tools": "3.0.0"
+  },
+  "files": [
+    "src"
+  ],
+  "license": "Apache-2.0"
+}
