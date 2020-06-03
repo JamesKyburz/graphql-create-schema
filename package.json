@@ -10,7 +10,7 @@
     "missing": "npx dependency-sync --once --debug ./src/index.js"
   },
   "dependencies": {
-    "graphql-tools": "3.0.0"
+    "graphql-tools": "6.0.6"
   },
   "files": [
     "src"
