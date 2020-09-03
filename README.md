@@ -9,13 +9,16 @@ Each file containing queries, mutations, types or resolvers is then merged to a 
 # usage
 
 ```javascript
+const { makeExecutableSchema } = require('graphql-tools')
 const createSchema = require('graphql-create-schema')
 const types = [
   require('./user'),
   require('./product')
 ]
-const schema = createSchema(types)
+const schema = createSchema(makeExecutableSchema, types)
 ```
+
+each file can export their own typeDefs and resolvers
 
 ```javascript
 // type.js
