@@ -6,12 +6,7 @@
     "type": "git",
     "url": "git://github.com/JamesKyburz/graphql-create-schema.git"
   },
-  "scripts": {
-    "missing": "npx dependency-sync --once --debug ./src/index.js"
-  },
-  "dependencies": {
-    "graphql-tools": "6.2.0"
-  },
+  "dependencies": {},
   "files": [
     "src"
   ],
@@ -20,5 +15,15 @@
     "api",
     "schema"
   ],
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "description": "create a graphql schema using one or more files.",
+  "bugs": {
+    "url": "https://github.com/JamesKyburz/graphql-create-schema/issues"
+  },
+  "homepage": "https://github.com/JamesKyburz/graphql-create-schema#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James Kyburz <james.kyburz@gmail.com>"
 }
